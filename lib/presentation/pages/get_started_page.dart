@@ -1,6 +1,8 @@
 import 'package:flutter/material.dart';
 import 'package:gap/gap.dart';
 import 'package:google_fonts/google_fonts.dart';
+import 'package:nft_market/presentation/pages/sign_up_page.dart';
+import 'package:nft_market/presentation/pages/sign_up_page.dart';
 
 import 'package:nft_market/presentation/widgets/page_widget.dart';
 
