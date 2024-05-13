@@ -1,8 +1,8 @@
 import 'package:flutter/material.dart';
 import 'package:gap/gap.dart';
 import 'package:google_fonts/google_fonts.dart';
-import 'package:nft_market/presentation/pages/sign_up_page.dart';
-import 'package:nft_market/presentation/widgets/button_widget.dart';
+
+
 import 'package:nft_market/presentation/widgets/page_widget.dart';
 
 class GetStartedPage extends StatelessWidget {
@@ -45,15 +45,8 @@ class GetStartedPage extends StatelessWidget {
             ),
 
             // Action
-            const Gap(40),
-            ButtonWidget(
-              text: "Getting Started",
-              onPressed: () {
-                Navigator.of(context).pushReplacement(MaterialPageRoute(
-                  builder: (context) => const SignUpPage(),
-                ));
-              },
-            )
+
+            
           ],
         ),
       ),
